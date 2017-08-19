@@ -1,0 +1,22 @@
+body{
+  background-color: #B7D6E4;
+}
+
+.clock{
+  text-align: center;
+  width: 50%
+}
+
+.hours::after, .minutes::after {
+  content: ":";
+  padding-left: 2px;
+}
+
+hr{
+  width: 0%;
+}
+ span{
+   font-family: sans-serif;
+   font-size: 20px;
+   text-align: center;
+ }
